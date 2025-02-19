@@ -1,0 +1,79 @@
+/* this is just to see the boxes */
+/* div{
+    border: 1px solid rebeccapurple;
+} */
+/* this is were the grip layout begins
+Grid */
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 3fr 7fr 1fr;
+}
+
+.topbox{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color: yellow ; 
+}
+
+
+.leftbox{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: red;
+}
+
+.toprightbox{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: pink;
+}
+
+
+
+.bottomrightbox{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: teal;
+}
+
+.bottom{
+    grid-column:1/3 ;
+    grid-row: 4/5;
+    background-color: blue
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: hsla(158, 100%, 50%, 0.705);
+}
+.reset {
+    all:initial;
+}
