@@ -15,6 +15,7 @@
 .leftbox {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
+    background-color: none;
 }
 
 .toprightbox {
@@ -78,6 +79,11 @@ li a:hover:not(.active) {
 
 
 .bottomrightbox h1  {
+    text-align: center;
+}
+
+
+.topbox h1 {
     text-align: center;
 }
 
