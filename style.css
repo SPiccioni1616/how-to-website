@@ -1,3 +1,6 @@
+
+
+
 /* Grid layout begins */
 .container {
     display: grid;
@@ -5,6 +8,14 @@
     grid-template-rows: 2fr 3fr 7fr 1fr;
     background-color: teal;
 }
+
+
+.monomakh-regular {
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 
 .topbox {
     grid-column: 1 / 3;
@@ -15,7 +26,7 @@
 .leftbox {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
-    background-color: none;
+    /* background-color: none; */
 }
 
 .toprightbox {
@@ -86,4 +97,6 @@ li a:hover:not(.active) {
 .topbox h1 {
     text-align: center;
 }
+
+
 
